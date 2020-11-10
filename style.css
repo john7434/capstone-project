@@ -1,48 +1,52 @@
 .logoimage {
   padding-left: 25px;
   padding-top: 15px;
-  width: 380px;
-  height: 110px;
-}
-
-.title {
-  font-size: 45px;
-  font-family: 'Barlow Condensed', sans-serif;
-  text-align: left;
-  border-bottom: 2px;
-  color: #1c384a
-}
-
-.description {
-  font-size: 35px;
-  font-family: "Barlow Condensed", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-}
-
-.coverimage {
-  width: 750px;
-  height: 450px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.source {
-  padding-top: 15px;
-  flex-direction: column;
-  display: flex
+  width: 480px;
+  height: 160px;
 }
 
 .nav-links{
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
+  font-size: 30px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  background-color: #818a9c;
+}
+
+.description {
+  padding-top: 15px;
+  font-size: 35px;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  font-weight: bold ;
+}
+
+.coverimage {
+  padding-top: 25px;
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  padding-bottom: 15px;
 }
 
 @media (max-width: 549px){
   .hidden--mobile {
     display: none !important;
+  }
+  nav > .fa-bars {
+    margin: 5px;
   }
   nav {
     display: flex;
