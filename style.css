@@ -1,6 +1,8 @@
 .logoimage {
-  width: 320px;
-  height: 90px;
+  padding-left: 25px;
+  padding-top: 15px;
+  width: 380px;
+  height: 110px;
 }
 
 .title {
@@ -16,7 +18,7 @@
   font-family: "Barlow Condensed", sans-serif;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  width: 800px;
 }
 
 .coverimage {
@@ -25,4 +27,44 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.source {
+  padding-top: 15px;
+  flex-direction: column;
+  display: flex
+}
+
+.nav-links{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 549px){
+  .hidden--mobile {
+    display: none !important;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  nav > i {
+    padding: 1rem;
+    font-size: 2em;
+  }
+  nav > ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0;
+  }
+  nav > ul > li {
+    padding: .5rem;
+    list-style-type: none;
+  }
+}
+
+nav > .fa-bars {
+  display: none;
 }
