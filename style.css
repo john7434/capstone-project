@@ -156,3 +156,17 @@ align-items: center;
     flex-direction: column;
   }
 }
+
+.coronalight {
+  font-size: 45px;
+justify-content: flex-end;
+  display: flex;
+  margin-right: 30px;
+  margin-left: 475px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: ivory;
+}
+
+.coronalightdes {
+
+}
