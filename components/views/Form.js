@@ -1,21 +1,25 @@
 export default () => `
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
+
+<center>
+<form class="form" name="contact" method="POST" data-netlify="true">
+  <p class="form">
+    <label class="form">Your Name: <input type="text" name="name" /></label>
   </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+  <p class="form">
+    <label class="form">Your Email: <input type="email" name="email" /></label>
   </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
+  <p class="form">
+    <label class="form">Submission Type: <select name="role[]" multiple>
+      <option class="form">Client</option>
+      <option class="form">Admin</option>
+      <option class="form">Queries</option>
     </select></label>
   </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
+  <p class="form">
+    <label class="form">Message: <textarea name="message"></textarea></label>
   </p>
-  <p>
+  <p class="form">
     <button type="submit">Send</button>
   </p>
-</form>`;
+</form>
+</center>`;
