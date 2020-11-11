@@ -107,31 +107,30 @@ background-color: ivory;
 }
 
 .adult {
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 350px;
+  height: 450px;
+  margin-left: 100px;
 }
 
 .glasses {
   width: 450px;
   height: 250px;
-  margin-left: auto;
-
 }
 
 .child {
   height: 450px;
   width: 350px;
-  margin-left: auto;
+
 }
 
 .safety {
 font-size: 30px;
-margin-left: 375px;
-margin-right: 425px;
-word-break: break-all;
-margin-bottom: 300px;
+margin-left: 200px;
+margin-right: 200px;
+margin-bottom: 250px;
 background-color: ivory;
+text-indent: 50px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .form {
@@ -142,7 +141,7 @@ background-color: ivory;
 }
 
 body {
-  background-image: url("https://media.istockphoto.com/vectors/disinfection-seamless-pattern-vector-background-included-line-icons-vector-id1219894252");
+  background-image: url("https://media.discordapp.net/attachments/342162377355034624/776224911429599272/backround.jpg?width=671&height=474");
 
 }
 
