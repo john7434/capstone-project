@@ -20,7 +20,7 @@ export default st => `<section>
 
 <p class="coronalight">Why we cannot take COVID-19 lightly</p>
 
-<div>
+<div class="coronalightparagraph">
 
 <div>
 <p class="coronalightdes">First and foremost, we cannot take COVID-19 lightly because of the effects that it already has over the entire nation of the United States. Across the United States we have had a confirmed 10,000,000+ cases, thats about a fifth of the global cases in total. We also are leading globally in deaths as well, having past 250,000 deaths. But yet across the country men, women, and children are annoyed and bored of having to quarantine. But if the United States had taken a much more serious approach at the beginning of this pandemic, then I wouldn't be making this website. And all of our lives would be back to normal. But unfortunately, our government failed us, and we failed each other, because the mentality that most americans took on at the beginning was. "Other people may catch it, but I'm not other people." And this website hasn't been made to slander and demonize the american people, but to help them realize the mistakes, take responsibility, and move forward from it.</p>
