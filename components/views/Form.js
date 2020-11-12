@@ -1,7 +1,7 @@
 export default () => `
 
 <center>
-<form class="form" name="contact" method="POST" data-netlify="true">
+<form class="form" action="https://formspree.io/f/xqkglebv" method="POST">
   <p class="form">
     <label class="form">Your Name: <input type="text" name="name" /></label>
   </p>
