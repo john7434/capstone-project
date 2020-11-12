@@ -20,17 +20,6 @@ axios
     }
   });
 
-axios
-  .get(
-    `https://api.openweathermap.org/data/2.5/weather?APPID=${process.env.OPEN_WEATHER_API_KEY}&q=st.%20louis`
-  )
-  .then(response => {
-    state.Home.weather.city = response.name;
-    state.Home.weather.temp = response.main.temp;
-    state.Home.weather.feelsLike = response.data.main.fells_like;
-    state.Home.weather.description = response.data.weather[0].main;
-  })
-  .catch(err => console.log(err));
 
 axios
   .get(`f4e8a2c3b041061f376881876be21a9bec4056a8`, {

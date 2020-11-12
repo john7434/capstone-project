@@ -32,7 +32,7 @@
 
 .nav-links:active {
   position:relative;
-	top:4px;
+
 }
 
 .description {
@@ -106,7 +106,7 @@ margin-right: 50px;
 
 .homestatement{
 font-size: 45px;
-margin-left: 200px;
+margin-left: 150px;
 margin-right: 700px;
 font-weight: bold;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -128,6 +128,7 @@ background-color: ivory;
   margin-right: 50px;
   padding-left: 30px;
 background-color: ivory;
+text-indent: 40px;
 }
 
 .adult {
@@ -201,6 +202,7 @@ justify-content: flex-end;
   display: flex;
   margin-right: 40px;
   margin-left: 50px;
+  text-indent: 40px;
 }
 
 .homeparagraphphoto {
@@ -224,4 +226,83 @@ justify-content: flex-end;
 .coronadomino{
   margin-right: 20px;
   width: 500px;
+  margin-left: 40px;
+}
+
+.whatcanwedo {
+  font-size: 45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: ivory;
+  margin-right: 490px;
+}
+
+.whatcanwedodes {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: ivory;
+  margin-right: 20px;
+  text-indent: 40px;
+  margin-left: 40px;
+}
+
+.whatcanwedophoto {
+margin-right: 30px;
+margin-left: 20px;
+}
+
+.whatcanwedocombo {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.spreadcombo {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.spread1{
+  font-size: 45px;
+  margin-left: 20px;
+  background-color: ivory;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-right: 670px;
+  margin-top: 60px;
+}
+
+.spread1des{
+  font-size: 20px;
+  background-color: ivory;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-indent: 40px;
+  margin-left: 30px;
+  margin-right: 60px;
+}
+
+.spread1photo {
+width: 600px;
+margin-right: 60px;
+}
+
+.distancingtitle {
+  font-size: 45px;
+  margin-left: 20px;
+  background-color: ivory;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-right: 670px;
+  margin-top: 60px;
+}
+
+.distancingcombo {
+
+}
+
+.distancingdes {
+
+}
+
+.distancingphoto {
+
 }

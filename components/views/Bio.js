@@ -24,5 +24,5 @@ export default () => `
 </div>
 </div>
 
-<p class= "safety">What you see above is all of the info you need for selection of a mask, pertaining to whether or not the person is an adult, or a child, to an infant. And of course for people with glasses as well. Because while it may seem as though you can just "put a mask on and be safe", the point of it is to filter the air you breathe, whether inhaling or exhaling. So making sure that your mask fits to your face snuggly, but comfortably is a key factor you must take into consideration</p>
+<p class= "safety">What you see above is all of the info you need for selection of a mask, pertaining to whether or not the person is an adult, or a child, to an infant. And of course for people with glasses as well. Because while it may seem as though you can just "put a mask on and be safe", the point of it is to filter the air you breathe, whether inhaling or exhaling. So making sure that your mask fits to your face snuggly, but comfortably is a key factor you must take into consideration.</p>
 </section>`;
