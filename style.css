@@ -92,10 +92,11 @@ background-color: ivory;
 
 .intro {
   font-size: 20px;
-  margin-right: 325px;
-  margin-left: 80px;
+  margin-right: 50px;
+  margin-left: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: ivory;
+  text-indent: 30px;
 }
 
 .mask {
@@ -168,5 +169,23 @@ justify-content: flex-end;
 }
 
 .coronalightdes {
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: ivory;
+justify-content: flex-end;
+  display: flex;
+  margin-right: 40px;
+  margin-left: 250px;
+}
 
+.homeparagraphphoto {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.coronaphoto {
+  width: 550px;
+  height: 330px;
+  margin-right: 50px;
 }
