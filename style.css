@@ -291,18 +291,29 @@ margin-right: 60px;
   margin-left: 20px;
   background-color: ivory;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-margin-right: 670px;
+margin-right: 700px;
   margin-top: 60px;
 }
 
 .distancingcombo {
-
+  display:flex;
+  flex-direction: row;
+  align-items: center;
 }
 
+
 .distancingdes {
+  background-color: ivory;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+  text-indent: 40px;
 
 }
 
 .distancingphoto {
-
+margin-right: 40px;
+margin-bottom: 80px;
 }

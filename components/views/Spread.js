@@ -20,11 +20,11 @@ export default () => `
 <div class="distancingcombo">
 
 <div>
-<p class="distancingdes">sample text</p>
+<p class="distancingdes">When taking in all of the factors that come into play when properly trying to disinfect, trying to make sure that you properly use a mask whenever you have to leave your house for necessities, such as your work or groceries, etc. Many people think of the whole pandemic as being something where you always must be prepared at all times. you have to worry about all of these different circumstances. But as long as you stay home, you're fine. Quite literally, as long we all stay home, we will dramatically curb the amount of cases. Through not exposing ourselves to the virus in the first place. It's truly that simple, because you need to be in person with people for the possibility. So as long as you minimize the amount you actually come into contact with people, not only are you protecting yourself, but everyone you care about around you as well.</p>
 </div>
 
 <div>
-<img class="distancingphoto" src="https://cdn.discordapp.com/attachments/342162377355034624/776430611454754856/spread.png">
+<img class="distancingphoto" src="https://static01.nyt.com/images/2020/03/26/learning/CoronavirusTransmissionGraphLN/CoronavirusTransmissionGraphLN-articleLarge.png?quality=90&auto=webp">
 </div>
 
 </div>

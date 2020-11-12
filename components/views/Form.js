@@ -1,6 +1,5 @@
 export default () => `
 
-
 <form class="form" action="https://formspree.io/f/xeqpzezo" method="POST">
   <input type="text" name="name">
   <input type="message" name="put your tip here!">

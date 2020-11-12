@@ -1,3 +1,3 @@
-export default st => `<section>
+export default () => `<section>
 
-</section>`
+</section>`;
